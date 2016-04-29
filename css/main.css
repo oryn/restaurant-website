@@ -14,6 +14,11 @@ html {
   background-color:#6a6e6a;
   font-family: 'EB Garamond', serif;
 }
+.welcome {
+  position: absolute;
+  display: inline-block;
+  float:left;
+}
 
 h1 {
   font-size: 110%;
