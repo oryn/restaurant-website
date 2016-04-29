@@ -12,8 +12,9 @@ html {
   text-size-adjust: 100%;
   line-height: 1.5;
   background-color: #6a6e6a;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
+
 .welcome {
   position: absolute;
   display: inline-block;
@@ -29,120 +30,122 @@ h1 {
 }
 
 nav ol {
- list-style-type: none;
- padding-left: 0;
- margin-left: -5%
- }
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: -5%;
+}
 
 nav a {
-  background-color: #000;}
+  background-color: #000;
+}
 
-nav a:hover{
-  background-color: #bd2132;}
+nav a:hover {
+  background-color: #bd2132;
+}
 
 nav a {
- padding: 0 0.7em;
- text-align: center;
- display: inline-block;
- color: white;
- text-decoration: none;
- border: 1px solid #fff;
- margin-left: 5%;
+  padding: 0 0.7em;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fff;
+  margin-left: 5%;
 }
 
 nav li {
-  display: inline;}
+  display: inline;
+}
 
 .luxe {
- font-size: 9rem;
- line-height: 1.5;
- margin: 0 auto;
- padding: 0em;
- background-color: #000;
- color: #fff;
- border: 1px solid #fff;
- width: 50%;
- position: relative;
- top: .1em;
-
+  font-size: 9rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 50%;
+  position: relative;
+  top: .1em;
 }
 
 .lux {
- font-size: 110%;
- margin: 0 auto;
- padding: 0em;
- background-color: #000;
- color: #fff;
- border: 1px solid #fff;
- width: 50%;
- position: relative;
+  font-size: 110%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 50%;
+  position: relative;
 }
 
 header {
- text-align: center;
- width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 body {
- box-shadow: 20px 0 0 0, -20px 0 0 0;
- margin: 0 20px;
+  box-shadow: 20px 0 0 0, -20px 0 0 0;
+  margin: 0 20px;
 }
 
 img {
- width: 100%;
+  width: 100%;
 }
 
 .otown {
- font-size: 120%;
- color: #fff;
- margin: 10% 20px;
- line-height: 1.4;
+  font-size: 120%;
+  color: #fff;
+  margin: 10% 20px;
+  line-height: 1.4;
 }
 
 .info {
- font-size: 1rem;
- color: #fff;
- text-align: center;
- background-color: #000;
- border: 20px solid #000;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border: 20px solid #000;
 }
 
 .menu p {
- padding: 0 0.7em;
- text-align: center;
- display: inline-block;
- color: white;
- text-decoration: none;
- border: 1px solid #fff;
- background-color: #000;
- margin-left: 1.5em;
- margin-bottom: -1px;
+  padding: 0 0.7em;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fff;
+  background-color: #000;
+  margin-left: 1.5em;
+  margin-bottom: -1px;
 }
 
-.menu{
- width: 100%;
- border-bottom: 2px solid white;
+.menu {
+  width: 100%;
+  border-bottom: 2px solid white;
 }
 
 .steak {
- margin-top: 3em;
+  margin-top: 3em;
 }
 
 .map {
- margin-top: 3em;
+  margin-top: 3em;
 }
 
 .about {
- background-color: #000;
- color: white;
- margin-top: 3em;
- padding: 2em;
- font-size: 130%;
- line-height: 1.5;
+  background-color: #000;
+  color: white;
+  margin-top: 3em;
+  padding: 2em;
+  font-size: 130%;
+  line-height: 1.5;
 }
 
 .burgers {
- margin-top: 3em;
+  margin-top: 3em;
 }
 
 footer {
@@ -151,13 +154,12 @@ footer {
   color: #fff;
   font-size: .9rem;
   padding-bottom: 3em;
-
 }
 
 footer a {
   padding: 0 0.7em;
   text-align: center;
-  display: inline-block;
+  display: block;
   color: white;
   text-decoration: none;
   border: 1px solid #fff;
@@ -178,13 +180,13 @@ footer a {
   .insta {
     width: 10%;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
 
   .insta {
     width: 5%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -192,11 +194,10 @@ footer a {
   .insta {
     width: 10%;
   }
-
 }
-
 @media only screen and (min-width: 90em) {
 
   .insta {
     width: 5%;
+  }
 }
